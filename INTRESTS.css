@@ -1,0 +1,107 @@
+body, html 
+{
+  height: 100%;
+}
+
+.bg-text
+{
+  
+  font-family: 'Teko', sans-serif;
+  font-size: 40px;
+}
+
+.bg-image 
+{
+  background-image: url("hobby.jpg");
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: scroll;
+}
+
+.bg-text 
+{ 
+  background-color: rgba(0,0,0, 0.3);
+  color: white;
+  font-weight: bold;
+  border: 5px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  height: 70%;
+  padding: 20px;
+}
+.h
+{
+  color: white;
+  text-decoration: none;
+}
+.h:hover
+{
+  text-decoration: none;
+  color: grey;
+}
+.href
+{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+h2
+{
+  font-size: 35px;
+  
+}
+ul.nav
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid grey;
+  background-color: black;
+}
+
+li.nav
+{
+  float: left;
+}
+
+.nav li a
+{
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+.nav li a.hover:not(.active) 
+{
+  text-decoration: none;
+  color: black;
+  background-color: grey;
+}
+
+.nav .activ
+{
+  background-color: white;
+  color: black;
+}
+.list
+{
+  text-indent: 550px;
+  line-height: 3px;
+}
+h1
+{
+  text-align: center;
+  font-size: 120px;
+}

@@ -1,0 +1,128 @@
+
+h1
+{
+	font-size: 70px;
+	text-align: center;
+  color: #000000;
+  text-shadow: 0 0 10px #00FFFF;
+}
+body
+{
+	
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: scroll;
+	background-size: 100%;	
+}
+.c
+{
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+}
+.nav
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid grey;
+  background-color: black;
+}
+
+.nav li 
+{
+  float: left;
+}
+
+.nav li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) 
+{
+  text-decoration: none;
+  color: black;
+  background-color: grey;
+}
+
+.nav .activ 
+{
+  background-color: white;
+  color: black;
+}
+
+
+.icons
+{
+  margin: 0;
+  padding:0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.icons li
+{
+  list-style: none;
+  margin: 0 70px;
+}
+.icons li a
+{
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 0px;
+  background: #333;
+  border-radius: 70%;
+  font-size: 80px;
+  color: #666;
+  transition: 0.5s;
+}
+fa-pinterest-square,
+fa-instagram,
+fa-github,
+fa-quora
+{
+  position: absolute;
+  top: 20px;
+  left: 21px;
+}
+fa-quora
+{
+  left: 18px;
+}
+.icons li a:before
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #00FFFF;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+.icons li a:hover:before
+{
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00FFFF;
+}
+.icons li a:hover
+{
+  color: #00FFFF;
+ box-shadow: 0 0 10px #00FFFF;
+  text-shadow: 0 0 10px #00FFFF;
+}
+ffee10
